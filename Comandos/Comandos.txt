@@ -1,0 +1,11 @@
+BUILD
+docker build . -t insurecloudbe:v7
+
+RUN
+docker run -p 5002:80 --name integrationatest  integrationa
+
+Cargar las imagenes a minikube
+minikube image load insurecloudbe
+
+Instalacion de Ingress nginx
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.0.0/deploy/static/provider/aws/deploy.yaml

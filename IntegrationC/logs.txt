@@ -1,0 +1,176 @@
+* 
+* ==> Audit <==
+* |---------|----------------|----------|----------------------|---------|---------------------|---------------------|
+| Command |      Args      | Profile  |         User         | Version |     Start Time      |      End Time       |
+|---------|----------------|----------|----------------------|---------|---------------------|---------------------|
+| start   |                | minikube | NOTEBOOKARIEL2\ariel | v1.32.0 | 28 Dec 23 09:14 -03 | 28 Dec 23 09:18 -03 |
+| addons  | enable ingress | minikube | NOTEBOOKARIEL2\ariel | v1.32.0 | 28 Dec 23 09:19 -03 | 28 Dec 23 09:20 -03 |
+| stop    |                | minikube | NOTEBOOKARIEL2\ariel | v1.32.0 | 28 Dec 23 10:15 -03 | 28 Dec 23 10:15 -03 |
+| start   |                | minikube | NOTEBOOKARIEL2\ariel | v1.32.0 | 28 Dec 23 11:13 -03 |                     |
+| start   |                | minikube | NOTEBOOKARIEL2\ariel | v1.32.0 | 28 Dec 23 11:14 -03 |                     |
+|---------|----------------|----------|----------------------|---------|---------------------|---------------------|
+
+* 
+* ==> Last Start <==
+* Log file created at: 2023/12/28 11:14:55
+Running on machine: NotebookAriel2
+Binary: Built with gc go1.21.3 for windows/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1228 11:14:55.602099   24376 out.go:296] Setting OutFile to fd 88 ...
+I1228 11:14:55.602679   24376 out.go:343] TERM=,COLORTERM=, which probably does not support color
+I1228 11:14:55.602679   24376 out.go:309] Setting ErrFile to fd 92...
+I1228 11:14:55.602679   24376 out.go:343] TERM=,COLORTERM=, which probably does not support color
+W1228 11:14:55.627125   24376 root.go:314] Error reading config file at C:\Users\ariel\.minikube\config\config.json: open C:\Users\ariel\.minikube\config\config.json: El sistema no puede encontrar el archivo especificado.
+I1228 11:14:55.634246   24376 out.go:303] Setting JSON to false
+I1228 11:14:55.644147   24376 start.go:128] hostinfo: {"hostname":"NotebookAriel2","uptime":864500,"bootTime":1702908395,"procs":339,"os":"windows","platform":"Microsoft Windows 10 Pro","platformFamily":"Standalone Workstation","platformVersion":"10.0.19045.3803 Build 19045.3803","kernelVersion":"10.0.19045.3803 Build 19045.3803","kernelArch":"x86_64","virtualizationSystem":"","virtualizationRole":"","hostId":"8f2386b4-6322-43f1-b332-decc6d4bd199"}
+W1228 11:14:55.644732   24376 start.go:136] gopshost.Virtualization returned error: not implemented yet
+I1228 11:14:55.647951   24376 out.go:177] * minikube v1.32.0 en Microsoft Windows 10 Pro 10.0.19045.3803 Build 19045.3803
+I1228 11:14:55.651960   24376 notify.go:220] Checking for updates...
+I1228 11:14:55.651960   24376 config.go:182] Loaded profile config "minikube": Driver=hyperv, ContainerRuntime=docker, KubernetesVersion=v1.28.3
+I1228 11:14:55.652969   24376 driver.go:378] Setting default libvirt URI to qemu:///system
+I1228 11:14:56.956786   24376 out.go:177] * Using the hyperv driver based on existing profile
+I1228 11:14:56.959462   24376 start.go:298] selected driver: hyperv
+I1228 11:14:56.960236   24376 start.go:902] validating driver "hyperv" against &{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO:https://storage.googleapis.com/minikube/iso/minikube-v1.32.1-amd64.iso KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.42@sha256:d35ac07dfda971cabee05e0deca8aeac772f885a5348e1a0c0b0a36db20fcfc0 Memory:4000 CPUs:2 DiskSize:20000 VMDriver: Driver:hyperv HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch: HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:0 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.28.3 ClusterName:minikube Namespace:default APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin:cni FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[] ShouldLoadCachedImages:true EnableDefaultCNI:false CNI: NodeIP: NodePort:8443 NodeName:} Nodes:[{Name: IP:172.30.111.29 Port:8443 KubernetesVersion:v1.28.3 ContainerRuntime:docker ControlPlane:true Worker:true}] Addons:map[default-storageclass:true ingress:true storage-provisioner:true] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:false ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:C:\Users\ariel:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath: SocketVMnetClientPath: SocketVMnetPath: StaticIP: SSHAuthSock: SSHAgentPID:0 AutoPauseInterval:1m0s GPUs:}
+I1228 11:14:56.960236   24376 start.go:913] status for hyperv: {Installed:true Healthy:true Running:false NeedsImprovement:false Error:<nil> Reason: Fix: Doc: Version:}
+I1228 11:14:57.034635   24376 cni.go:84] Creating CNI manager for ""
+I1228 11:14:57.035185   24376 cni.go:158] "hyperv" driver + "docker" container runtime found on kubernetes v1.24+, recommending bridge
+I1228 11:14:57.035185   24376 start_flags.go:323] config:
+{Name:minikube KeepContext:false EmbedCerts:false MinikubeISO:https://storage.googleapis.com/minikube/iso/minikube-v1.32.1-amd64.iso KicBaseImage:gcr.io/k8s-minikube/kicbase:v0.0.42@sha256:d35ac07dfda971cabee05e0deca8aeac772f885a5348e1a0c0b0a36db20fcfc0 Memory:4000 CPUs:2 DiskSize:20000 VMDriver: Driver:hyperv HyperkitVpnKitSock: HyperkitVSockPorts:[] DockerEnv:[] ContainerVolumeMounts:[] InsecureRegistry:[] RegistryMirror:[] HostOnlyCIDR:192.168.59.1/24 HypervVirtualSwitch: HypervUseExternalSwitch:false HypervExternalAdapter: KVMNetwork:default KVMQemuURI:qemu:///system KVMGPU:false KVMHidden:false KVMNUMACount:1 APIServerPort:0 DockerOpt:[] DisableDriverMounts:false NFSShare:[] NFSSharesRoot:/nfsshares UUID: NoVTXCheck:false DNSProxy:false HostDNSResolver:true HostOnlyNicType:virtio NatNicType:virtio SSHIPAddress: SSHUser:root SSHKey: SSHPort:22 KubernetesConfig:{KubernetesVersion:v1.28.3 ClusterName:minikube Namespace:default APIServerName:minikubeCA APIServerNames:[] APIServerIPs:[] DNSDomain:cluster.local ContainerRuntime:docker CRISocket: NetworkPlugin:cni FeatureGates: ServiceCIDR:10.96.0.0/12 ImageRepository: LoadBalancerStartIP: LoadBalancerEndIP: CustomIngressCert: RegistryAliases: ExtraOptions:[] ShouldLoadCachedImages:true EnableDefaultCNI:false CNI: NodeIP: NodePort:8443 NodeName:} Nodes:[{Name: IP:172.30.111.29 Port:8443 KubernetesVersion:v1.28.3 ContainerRuntime:docker ControlPlane:true Worker:true}] Addons:map[default-storageclass:true ingress:true storage-provisioner:true] CustomAddonImages:map[] CustomAddonRegistries:map[] VerifyComponents:map[apiserver:true system_pods:true] StartHostTimeout:6m0s ScheduledStop:<nil> ExposedPorts:[] ListenAddress: Network: Subnet: MultiNodeRequested:false ExtraDisks:0 CertExpiration:26280h0m0s Mount:false MountString:C:\Users\ariel:/minikube-host Mount9PVersion:9p2000.L MountGID:docker MountIP: MountMSize:262144 MountOptions:[] MountPort:0 MountType:9p MountUID:docker BinaryMirror: DisableOptimizations:false DisableMetrics:false CustomQemuFirmwarePath: SocketVMnetClientPath: SocketVMnetPath: StaticIP: SSHAuthSock: SSHAgentPID:0 AutoPauseInterval:1m0s GPUs:}
+I1228 11:14:57.036822   24376 iso.go:125] acquiring lock: {Name:mk1820bc99da0b6c900b4c7481baa15a02ebd579 Clock:{} Delay:500ms Timeout:10m0s Cancel:<nil>}
+I1228 11:14:57.040786   24376 out.go:177] * Starting control plane node minikube in cluster minikube
+I1228 11:14:57.042786   24376 preload.go:132] Checking if preload exists for k8s version v1.28.3 and runtime docker
+I1228 11:14:57.042786   24376 preload.go:148] Found local preload: C:\Users\ariel\.minikube\cache\preloaded-tarball\preloaded-images-k8s-v18-v1.28.3-docker-overlay2-amd64.tar.lz4
+I1228 11:14:57.042786   24376 cache.go:56] Caching tarball of preloaded images
+I1228 11:14:57.042786   24376 preload.go:174] Found C:\Users\ariel\.minikube\cache\preloaded-tarball\preloaded-images-k8s-v18-v1.28.3-docker-overlay2-amd64.tar.lz4 in cache, skipping download
+I1228 11:14:57.042786   24376 cache.go:59] Finished verifying existence of preloaded tar for  v1.28.3 on docker
+I1228 11:14:57.043772   24376 profile.go:148] Saving config to C:\Users\ariel\.minikube\profiles\minikube\config.json ...
+I1228 11:14:57.045773   24376 start.go:365] acquiring machines lock for minikube: {Name:mk7d862212c5249947f9c85a8fae01c1d8b7d6b7 Clock:{} Delay:500ms Timeout:13m0s Cancel:<nil>}
+I1228 11:14:57.045773   24376 start.go:369] acquired machines lock for "minikube" in 0s
+I1228 11:14:57.045773   24376 start.go:96] Skipping create...Using existing machine configuration
+I1228 11:14:57.045773   24376 fix.go:54] fixHost starting: 
+I1228 11:14:57.046778   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive ( Hyper-V\Get-VM minikube ).state
+I1228 11:14:57.723428   24376 main.go:141] libmachine: [stdout =====>] : Off
+
+I1228 11:14:57.723428   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:14:57.723428   24376 fix.go:102] recreateIfNeeded on minikube: state=Stopped err=<nil>
+W1228 11:14:57.723428   24376 fix.go:128] unexpected machine state, will restart: <nil>
+I1228 11:14:57.726342   24376 out.go:177] * Restarting existing hyperv VM for "minikube" ...
+I1228 11:14:57.729907   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive Hyper-V\Start-VM minikube
+I1228 11:15:05.025099   24376 main.go:141] libmachine: [stdout =====>] : 
+I1228 11:15:05.025099   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:05.025099   24376 main.go:141] libmachine: Waiting for host to start...
+I1228 11:15:05.025099   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive ( Hyper-V\Get-VM minikube ).state
+I1228 11:15:05.984490   24376 main.go:141] libmachine: [stdout =====>] : Running
+
+I1228 11:15:05.984490   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:05.984490   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive (( Hyper-V\Get-VM minikube ).networkadapters[0]).ipaddresses[0]
+I1228 11:15:08.713620   24376 main.go:141] libmachine: [stdout =====>] : 
+I1228 11:15:08.714254   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:09.727623   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive ( Hyper-V\Get-VM minikube ).state
+I1228 11:15:10.683349   24376 main.go:141] libmachine: [stdout =====>] : Running
+
+I1228 11:15:10.683349   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:10.683460   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive (( Hyper-V\Get-VM minikube ).networkadapters[0]).ipaddresses[0]
+I1228 11:15:11.828443   24376 main.go:141] libmachine: [stdout =====>] : 
+I1228 11:15:11.828443   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:12.837743   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive ( Hyper-V\Get-VM minikube ).state
+I1228 11:15:13.685482   24376 main.go:141] libmachine: [stdout =====>] : Running
+
+I1228 11:15:13.685992   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:13.686004   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive (( Hyper-V\Get-VM minikube ).networkadapters[0]).ipaddresses[0]
+I1228 11:15:14.975825   24376 main.go:141] libmachine: [stdout =====>] : 
+I1228 11:15:14.975825   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:15.979442   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive ( Hyper-V\Get-VM minikube ).state
+I1228 11:15:16.937135   24376 main.go:141] libmachine: [stdout =====>] : Running
+
+I1228 11:15:16.937135   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:16.937135   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive (( Hyper-V\Get-VM minikube ).networkadapters[0]).ipaddresses[0]
+I1228 11:15:18.270805   24376 main.go:141] libmachine: [stdout =====>] : 
+I1228 11:15:18.270805   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:19.279061   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive ( Hyper-V\Get-VM minikube ).state
+I1228 11:15:20.390144   24376 main.go:141] libmachine: [stdout =====>] : Running
+
+I1228 11:15:20.390144   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:20.390144   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive (( Hyper-V\Get-VM minikube ).networkadapters[0]).ipaddresses[0]
+I1228 11:15:21.856766   24376 main.go:141] libmachine: [stdout =====>] : 172.30.98.187
+
+I1228 11:15:21.856766   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:21.998280   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive ( Hyper-V\Get-VM minikube ).state
+I1228 11:15:23.292393   24376 main.go:141] libmachine: [stdout =====>] : Running
+
+I1228 11:15:23.292393   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:23.292920   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive (( Hyper-V\Get-VM minikube ).networkadapters[0]).ipaddresses[0]
+I1228 11:15:24.481241   24376 main.go:141] libmachine: [stdout =====>] : 172.30.98.187
+
+I1228 11:15:24.481241   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:24.486037   24376 profile.go:148] Saving config to C:\Users\ariel\.minikube\profiles\minikube\config.json ...
+I1228 11:15:24.490149   24376 machine.go:88] provisioning docker machine ...
+I1228 11:15:24.490742   24376 buildroot.go:166] provisioning hostname "minikube"
+I1228 11:15:24.491915   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive ( Hyper-V\Get-VM minikube ).state
+I1228 11:15:25.249939   24376 main.go:141] libmachine: [stdout =====>] : Running
+
+I1228 11:15:25.249939   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:25.249939   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive (( Hyper-V\Get-VM minikube ).networkadapters[0]).ipaddresses[0]
+I1228 11:15:26.224451   24376 main.go:141] libmachine: [stdout =====>] : 172.30.98.187
+
+I1228 11:15:26.224451   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:26.245420   24376 main.go:141] libmachine: Using SSH client type: native
+I1228 11:15:26.248416   24376 main.go:141] libmachine: <nil>
+I1228 11:15:26.248416   24376 machine.go:91] provisioned docker machine in 1.758267s
+I1228 11:15:26.250049   24376 fix.go:56] fixHost completed within 29.2042755s
+I1228 11:15:26.250049   24376 start.go:83] releasing machines lock for "minikube", held for 29.2042755s
+W1228 11:15:26.251222   24376 start.go:691] error starting host: provision: Error getting config for native Go SSH: open C:\Users\ariel\.minikube\machines\minikube\id_rsa: Acceso denegado.
+W1228 11:15:26.253606   24376 out.go:239] ! StartHost failed, but will try again: provision: Error getting config for native Go SSH: open C:\Users\ariel\.minikube\machines\minikube\id_rsa: Acceso denegado.
+I1228 11:15:26.254798   24376 start.go:706] Will try again in 5 seconds ...
+I1228 11:15:31.277097   24376 start.go:365] acquiring machines lock for minikube: {Name:mk7d862212c5249947f9c85a8fae01c1d8b7d6b7 Clock:{} Delay:500ms Timeout:13m0s Cancel:<nil>}
+I1228 11:15:31.277885   24376 start.go:369] acquired machines lock for "minikube" in 787.3µs
+I1228 11:15:31.277885   24376 start.go:96] Skipping create...Using existing machine configuration
+I1228 11:15:31.277885   24376 fix.go:54] fixHost starting: 
+I1228 11:15:31.282950   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive ( Hyper-V\Get-VM minikube ).state
+I1228 11:15:32.096313   24376 main.go:141] libmachine: [stdout =====>] : Running
+
+I1228 11:15:32.096313   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:32.096313   24376 fix.go:102] recreateIfNeeded on minikube: state=Running err=<nil>
+W1228 11:15:32.099366   24376 fix.go:128] unexpected machine state, will restart: <nil>
+I1228 11:15:32.103698   24376 out.go:177] * Updating the running hyperv "minikube" VM ...
+I1228 11:15:32.108154   24376 machine.go:88] provisioning docker machine ...
+I1228 11:15:32.108154   24376 buildroot.go:166] provisioning hostname "minikube"
+I1228 11:15:32.108154   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive ( Hyper-V\Get-VM minikube ).state
+I1228 11:15:32.869040   24376 main.go:141] libmachine: [stdout =====>] : Running
+
+I1228 11:15:32.869040   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:32.869040   24376 main.go:141] libmachine: [executing ==>] : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -NonInteractive (( Hyper-V\Get-VM minikube ).networkadapters[0]).ipaddresses[0]
+I1228 11:15:33.823941   24376 main.go:141] libmachine: [stdout =====>] : 172.30.98.187
+
+I1228 11:15:33.823941   24376 main.go:141] libmachine: [stderr =====>] : 
+I1228 11:15:33.832154   24376 main.go:141] libmachine: Using SSH client type: native
+I1228 11:15:33.832724   24376 main.go:141] libmachine: <nil>
+I1228 11:15:33.832724   24376 machine.go:91] provisioned docker machine in 1.7245693s
+I1228 11:15:33.832724   24376 fix.go:56] fixHost completed within 2.5548392s
+I1228 11:15:33.832724   24376 start.go:83] releasing machines lock for "minikube", held for 2.5548392s
+W1228 11:15:33.833283   24376 out.go:239] * Failed to start hyperv VM. Running "minikube delete" may fix it: provision: Error getting config for native Go SSH: open C:\Users\ariel\.minikube\machines\minikube\id_rsa: Acceso denegado.
+I1228 11:15:33.881187   24376 out.go:177] 
+W1228 11:15:33.923360   24376 out.go:239] X Saliendo por un error GUEST_PROVISION: error provisioning guest: Failed to start host: provision: Error getting config for native Go SSH: open C:\Users\ariel\.minikube\machines\minikube\id_rsa: Acceso denegado.
+W1228 11:15:33.923360   24376 out.go:239] * 
+W1228 11:15:33.932932   24376 out.go:239] ╭─────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                             │
+│    * If the above advice does not help, please let us know:                                 │
+│      https://github.com/kubernetes/minikube/issues/new/choose                               │
+│                                                                                             │
+│    * Please run `minikube logs --file=logs.txt` and attach logs.txt to the GitHub issue.    │
+│                                                                                             │
+╰─────────────────────────────────────────────────────────────────────────────────────────────╯
+I1228 11:15:33.937257   24376 out.go:177] 
+
+* 
+* ==> Docker <==
+* 
+* ==> container status <==
+* 
+* ==> describe nodes <==
+* 
+* ==> dmesg <==
+* 
+* ==> kernel <==
+* 
+* ==> kubelet <==

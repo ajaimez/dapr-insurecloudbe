@@ -1,0 +1,44 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: integrationa-svc
+  namespace: lab02
+  labels:
+    app: integrationa
+spec:
+  selector:
+    app: integrationa
+  ports:
+    - protocol: TCP
+      port: 8981
+      targetPort: 80
+  type: ClusterIP
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: integrationa
+  namespace: lab02
+  labels:
+    app: integrationa
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: integrationa
+  template:
+    metadata:
+      labels:
+        app: integrationa
+      annotations:
+        dapr.io/enabled: "true"
+        dapr.io/app-id: "integrationa"
+        dapr.io/app-port: "80"
+    spec:
+      containers:
+        - name: integrationa
+          image: integrationa
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 80          

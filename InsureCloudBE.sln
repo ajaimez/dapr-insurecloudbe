@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsureCloudBE", "InsureCloudBE\InsureCloudBE.csproj", "{6E2AFA73-0CD6-4905-AD3A-76695778992A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationA", "IntegrationA\IntegrationA.csproj", "{A510590A-0C38-478F-B67B-B32354346F2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationB", "IntegrationB\IntegrationB.csproj", "{206A0BC8-7BA9-49B7-9979-706F9FE1D537}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationC", "IntegrationC\IntegrationC.csproj", "{34EAF79B-35C0-471A-8EEC-A39E8CDB086D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DeployK8s", "DeployK8s", "{579A4019-9830-4BEA-A28E-C4A2018E25B5}"
+	ProjectSection(SolutionItems) = preProject
+		00-namespace.yaml = 00-namespace.yaml
+		deploy-insurecloudbe.yaml = deploy-insurecloudbe.yaml
+		deploy-integrationa.yaml = deploy-integrationa.yaml
+		ingress.yaml = ingress.yaml
+		test.yaml.txt = test.yaml.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comandos", "Comandos", "{441A14ED-ACAC-4696-9431-D4A1A2AF7155}"
+	ProjectSection(SolutionItems) = preProject
+		Comandos\Comandos.txt = Comandos\Comandos.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E2AFA73-0CD6-4905-AD3A-76695778992A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2AFA73-0CD6-4905-AD3A-76695778992A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2AFA73-0CD6-4905-AD3A-76695778992A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2AFA73-0CD6-4905-AD3A-76695778992A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A510590A-0C38-478F-B67B-B32354346F2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A510590A-0C38-478F-B67B-B32354346F2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A510590A-0C38-478F-B67B-B32354346F2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A510590A-0C38-478F-B67B-B32354346F2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{206A0BC8-7BA9-49B7-9979-706F9FE1D537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{206A0BC8-7BA9-49B7-9979-706F9FE1D537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{206A0BC8-7BA9-49B7-9979-706F9FE1D537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{206A0BC8-7BA9-49B7-9979-706F9FE1D537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34EAF79B-35C0-471A-8EEC-A39E8CDB086D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34EAF79B-35C0-471A-8EEC-A39E8CDB086D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34EAF79B-35C0-471A-8EEC-A39E8CDB086D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34EAF79B-35C0-471A-8EEC-A39E8CDB086D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3623D7F4-C718-4D44-A038-4D6DB33BB33C}
+	EndGlobalSection
+EndGlobal
