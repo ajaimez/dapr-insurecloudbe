@@ -11,14 +11,14 @@ spec:
     - http:
         paths:
           - pathType: Prefix
-            path: /a(/|$)(.*)
+            path: /insurecloud(/|$)(.*)
             backend:
                 service:
                     name: insurecloud-be-svc
                     port:
                         number: 8980
           - pathType: Prefix
-            path: /b(/|$)(.*)
+            path: /integrationa(/|$)(.*)
             backend:
                 service:
                     name: integrationa-svc
