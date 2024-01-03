@@ -13,11 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationC", "Integration
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DeployK8s", "DeployK8s", "{579A4019-9830-4BEA-A28E-C4A2018E25B5}"
 	ProjectSection(SolutionItems) = preProject
-		00-namespace.yaml = 00-namespace.yaml
-		deploy-insurecloudbe.yaml = deploy-insurecloudbe.yaml
-		deploy-integrationa.yaml = deploy-integrationa.yaml
-		ingress.yaml = ingress.yaml
-		test.yaml.txt = test.yaml.txt
+		DeployK8s\00-namespace.yaml = DeployK8s\00-namespace.yaml
+		DeployK8s\deploy-insurecloudbe.yaml = DeployK8s\deploy-insurecloudbe.yaml
+		DeployK8s\deploy-integrationa.yaml = DeployK8s\deploy-integrationa.yaml
+		DeployK8s\ingress.yaml = DeployK8s\ingress.yaml
+		DeployK8s\test.yaml.txt = DeployK8s\test.yaml.txt
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comandos", "Comandos", "{441A14ED-ACAC-4696-9431-D4A1A2AF7155}"
