@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\POC-InsureCloud\\IntegrationB\\IntegrationB.csproj": {}
+    "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\dapr-insurecloudbe\\IntegrationB\\IntegrationB.csproj": {}
   },
   "projects": {
-    "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\POC-InsureCloud\\IntegrationB\\IntegrationB.csproj": {
+    "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\dapr-insurecloudbe\\IntegrationB\\IntegrationB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\POC-InsureCloud\\IntegrationB\\IntegrationB.csproj",
+        "projectUniqueName": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\dapr-insurecloudbe\\IntegrationB\\IntegrationB.csproj",
         "projectName": "IntegrationB",
-        "projectPath": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\POC-InsureCloud\\IntegrationB\\IntegrationB.csproj",
+        "projectPath": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\dapr-insurecloudbe\\IntegrationB\\IntegrationB.csproj",
         "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\POC-InsureCloud\\IntegrationB\\obj\\",
+        "outputPath": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\dapr-insurecloudbe\\IntegrationB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",

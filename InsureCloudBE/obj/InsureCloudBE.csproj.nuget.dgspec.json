@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\POC-InsureCloud\\InsureCloudBE\\InsureCloudBE.csproj": {}
+    "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\dapr-insurecloudbe\\InsureCloudBE\\InsureCloudBE.csproj": {}
   },
   "projects": {
-    "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\POC-InsureCloud\\InsureCloudBE\\InsureCloudBE.csproj": {
+    "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\dapr-insurecloudbe\\InsureCloudBE\\InsureCloudBE.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\POC-InsureCloud\\InsureCloudBE\\InsureCloudBE.csproj",
+        "projectUniqueName": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\dapr-insurecloudbe\\InsureCloudBE\\InsureCloudBE.csproj",
         "projectName": "InsureCloudBE",
-        "projectPath": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\POC-InsureCloud\\InsureCloudBE\\InsureCloudBE.csproj",
+        "projectPath": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\dapr-insurecloudbe\\InsureCloudBE\\InsureCloudBE.csproj",
         "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
-        "outputPath": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\POC-InsureCloud\\InsureCloudBE\\obj\\",
+        "outputPath": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\dapr-insurecloudbe\\InsureCloudBE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",

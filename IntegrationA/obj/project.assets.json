@@ -433,11 +433,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\POC-InsureCloud\\IntegrationA\\IntegrationA.csproj",
+      "projectUniqueName": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\dapr-insurecloudbe\\IntegrationA\\IntegrationA.csproj",
       "projectName": "IntegrationA",
-      "projectPath": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\POC-InsureCloud\\IntegrationA\\IntegrationA.csproj",
+      "projectPath": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\dapr-insurecloudbe\\IntegrationA\\IntegrationA.csproj",
       "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\POC-InsureCloud\\IntegrationA\\obj\\",
+      "outputPath": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\dapr-insurecloudbe\\IntegrationA\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",

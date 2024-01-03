@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wru4ryEzkh/U/rn+NaCC1YGt4LAr04Gz9sfxbFGa3wDnB3qgAEuurOCWJA8tInoAYjH0yPICQh2rdysE2whTTA==",
+  "dgSpecHash": "K8XdX0MdUbSiQ4xGWg+NRZgM2VAHms1wsIj+gpH+fype7syADz/zf8P3lX8/hb5FK7epzx8+vwGEM9V9RMDbIQ==",
   "success": true,
-  "projectFilePath": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\POC-InsureCloud\\IntegrationC\\IntegrationC.csproj",
+  "projectFilePath": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\dapr-insurecloudbe\\IntegrationC\\IntegrationC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ariel\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\ariel\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

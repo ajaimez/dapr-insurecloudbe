@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "myb40H9X+9ueDie3CbcgmnJFUZs8o9UCCbMel3PNJB/08kaBcQ269Uy8+u4abI6jbzKrHjqtmJzeYHuxKrDNoQ==",
+  "dgSpecHash": "byNQ2uxYtypJ0PJUQ8V78aM69S9gvCso011Ak/eMM96DlR4LcKJ4a6ym7JijM5OW3HsvSKyWG6iez9uGjlLeHw==",
   "success": true,
-  "projectFilePath": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\POC-InsureCloud\\InsureCloudBE\\InsureCloudBE.csproj",
+  "projectFilePath": "D:\\Proyectos\\MC\\Curso Lab Dapr\\Code\\dapr-insurecloudbe\\InsureCloudBE\\InsureCloudBE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ariel\\.nuget\\packages\\dapr.aspnetcore\\1.12.0\\dapr.aspnetcore.1.12.0.nupkg.sha512",
     "C:\\Users\\ariel\\.nuget\\packages\\dapr.client\\1.12.0\\dapr.client.1.12.0.nupkg.sha512",

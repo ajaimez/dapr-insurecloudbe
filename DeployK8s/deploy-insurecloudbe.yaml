@@ -38,7 +38,7 @@ spec:
     spec:
       containers:
         - name: insurecloud-be
-          image: insurecloudbe:v7
+          image: insurecloudbe:v1
           imagePullPolicy: Never
           ports:
             - containerPort: 80
